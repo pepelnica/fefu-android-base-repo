@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Activity Tracker</string>
+    
+    <string name="title_registration">Регистрация</string>
+    <string name="registration_login">Логин</string>
+
+    <string name="title_login">Вход</string>
+    <string name="login">Войти</string>
+
+    <string name="menu_activities">Активности</string>
+    <string name="menu_profile">Профиль</string>
+
+    <string name="activity_yesterday">Вчера</string>
+    <string name="activity_details_start">Старт</string>
+    <string name="activity_details_finish">Финиш</string>
+    <string name="activity_details_comment">Комментарий</string>
+    <string name="activity_details_trash">Корзина</string>
+    <string name="activity_details_share">Поделиться</string>
+
+    <string-array name="activities_name">
+        <item>Мое</item>
+        <item>Пользователей</item>
+    </string-array>
 </resources>
