@@ -6,9 +6,17 @@
     <fragment
         android:id="@+id/activitiesFragment"
         android:name="ru.fefu.activitytracker.ui.activities.ActivitiesFragment"
-        android:label="ActivitiesFragment" />
+        android:label="ActivitiesFragment" >
+        <action
+            android:id="@+id/action_activitiesFragment_to_activityDetailsFragment"
+            app:destination="@id/activityDetailsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="ru.fefu.activitytracker.ui.profile.ProfileFragment"
+        android:name="ru.fefu.activitytracker.ui.profile.ActivityDetailsFragment"
         android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/activityDetailsFragment"
+        android:name="ru.fefu.activitytracker.ui.activitydetails.ActivityDetailsFragment"
+        android:label="ActivityDetailsFragment" />
 </navigation>
